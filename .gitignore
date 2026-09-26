@@ -1,0 +1,102 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Models and serialization artifacts
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Datasets and outputs (keep folder structure with .gitkeep)
+dataset/train/*
+!dataset/train/.gitkeep
+dataset/test/*
+!dataset/test/.gitkeep
+output/*
+!output/.gitkeep
+amazon-ml-challenge/dataset/train/*
+!amazon-ml-challenge/dataset/train/.gitkeep
+amazon-ml-challenge/dataset/test/*
+!amazon-ml-challenge/dataset/test/.gitkeep
+amazon-ml-challenge/output/*
+!amazon-ml-challenge/output/.gitkeep
+
+# Large data formats (excluding gitkeep)
+*.tsv
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+*.7z
